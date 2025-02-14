@@ -6,8 +6,11 @@ import org.springframework.boot.test.context.SpringBootTest;
 @SpringBootTest
 class DemoApplicationTests {
 
+	private String name = "Test";
+
 	@Test
 	void contextLoads() {
+		System.out.println("Este es: "+ name);
 	}
 
 }
